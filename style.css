@@ -7,38 +7,62 @@ body{
     }
 
     .header{
-        background-color: mediumblue;
+        position: relative;
+        background-color:mediumslateblue;
         width: 850px;
         height: 400px;
-        position: relative;
         top:5px;
         margin: auto;
-    } 
-    .column1 {
-        position: relative;
-        top: 40px;
-        width: 328px;
-        height: 400px;
-        background-color:mediumblue;
-    }
-    .column2 {
         
-        top: 40px;
-        left: 338px;
-        width: 512px;
-        height: 400px;
-        background-color:mediumblue;
+    } 
+    .header-bg {
+        position: relative;
+        background-color: whitesmoke;
+        height:40px;
+        top: 360px;
     }
-nav{
+  nav {
+      position: relative;
+      top: 10px;
+      left: 220px;
+  }  
+    span{
+    margin: 10px;
+    border-right: 1px solid black;
     position: relative;
-    top: 410px;
-    left:400px;
-    }
-.row {
-    width: 850px;
-    margin: auto;
+    padding-right: 10px;
+}
+.profile-photo{
+    position: relative;
+    background-image: url(https://vignette.wikia.nocookie.net/simpsons/images/d/db/200px-Chuck_Muntz.png/revision/latest?cb=20110929163657);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;  
+    left: 20px;
+    top: -190px;
+    border: 1px solid black;
+}
+.profile-info{
+    border: 1px dotted black;
+    position: relative;
+    height: 90px;
+    width: 30%;
+    top: -320px;
+    left: 230px;
+    
+}
+.profile-info{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.profile-buttons {
+    
+    
+    
 }
 
-span{
-    margin: 10px;
-}
+
+
